@@ -1,0 +1,7 @@
+// library/build.gradle
+configurations.maybeCreate("default")
+
+// Add all AAR files as artifacts
+artifacts.add("default", file('flutter_debug-1.0.aar'))
+artifacts.add("default", file('flutter_release-1.0.aar'))
+ 
