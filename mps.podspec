@@ -7,7 +7,6 @@ Pod::Spec.new do |s|
 This is a Flutter module that can be integrated into native iOS applications.
                        DESC
   s.homepage         = 'https://github.com/sak-coder/mps'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sak' => 'sak@myphsar.com' }
   s.source           = { :git => 'https://github.com/sak-coder/mps.git', :tag => s.version.to_s }
 
