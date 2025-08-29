@@ -1,6 +1,6 @@
 # my_flutter_module.podspec
 Pod::Spec.new do |s|
-  s.name             = 'MyphsarModule'
+  s.name             = 'my_flutter_module'
   s.version          = '1.0.0'
   s.summary          = 'A Flutter module for iOS integration'
   s.description      = <<-DESC
@@ -19,9 +19,6 @@ This is a Flutter module that can be integrated into native iOS applications.
     'Flutter/App.framework',
     'Flutter/Flutter.framework',
     'Flutter/FlutterPluginRegistrant.framework',
-    'Flutter/path_provider.framework',
-    'Flutter/shared_preferences.framework',
-    # Add other plugin frameworks your module uses
   ]
 
   # Flutter engine and plugins
