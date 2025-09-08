@@ -1,8 +1,0 @@
-
-# jitpack.yml
-jdk:
-  - openjdk11
-install:
-  - echo "Using pre-built AAR files - no compilation needed"
-  # Optional: verify files exist
-  - ls -la library/
