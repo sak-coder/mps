@@ -58,7 +58,7 @@ afterEvaluate {
                 pom {
                     name = 'myphsar'
                     description = 'A Flutter module for Myphsar'
-                    url = 'https://github.com/sak-coder/myphsar_module'
+                    url = 'https://github.com/sak-coder/mps'
 
                     licenses {
                         license {
