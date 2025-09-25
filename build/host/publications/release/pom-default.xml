@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.github.sak-coder</groupId>
   <artifactId>flutter_release</artifactId>
   <version>1.0.1</version>
   <packaging>pom</packaging>
-  <dependencies/>
+  <name>Flutter Release Module</name>
+  <description>Flutter module.</description>
+  <url>https://github.com/sak-coder/mps</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>sak-coder</id>
+      <name>myphsar</name>
+      <email>contact@myphsar.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/sak-coder/io.git</connection>
+    <developerConnection>scm:git:ssh://github.com/sak-coder/io.git</developerConnection>
+    <url>https://github.com/sak-coder/io/tree/main</url>
+  </scm>
 </project>

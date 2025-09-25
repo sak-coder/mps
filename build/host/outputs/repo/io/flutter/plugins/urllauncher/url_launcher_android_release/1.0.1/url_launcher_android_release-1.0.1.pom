@@ -11,6 +11,27 @@
   <artifactId>url_launcher_android_release</artifactId>
   <version>1.0.1</version>
   <packaging>aar</packaging>
+<name>Finik Flutter module</name>
+<description>Finik Flutter module for Android</description>
+<url>github.com/sak-coder/mps.git</url>
+<licenses>
+<license>
+<name>Apache License, Version 2.0</name>
+<url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+</license>
+</licenses>
+<developers>
+<developer>
+<id>sak-coder</id>
+<name>myphsar</name>
+<email>connecttopiksak@gmail.com</email>
+</developer>
+</developers>
+<scm>
+<connection>scm:git:git://github.com/sak-coder/mps.git</connection>
+<developerConnection>scm:git:ssh://github.com/sak-coder/mps.git</developerConnection>
+<url>https://github.com/sak-coder/mps</url>
+</scm>
   <dependencies>
     <dependency>
       <groupId>io.flutter</groupId>

@@ -252,11 +252,11 @@
         {
           "name": "flutter_release-1.0.1-sources.jar",
           "url": "flutter_release-1.0.1-sources.jar",
-          "size": 1382,
-          "sha512": "15a11e0c3ed648d34f53ca90266d3dd81fe4a65ffd28ce4675268b9e2cb388e44cec5f2c2ee768d5d2d49b981d289c2b475277cbea5317b674d945aa6c1fe8bb",
-          "sha256": "d372f5a2e9636b704a0f72ed84fab4f6fc0fa5d06dd96d736841c7f950b6f38e",
-          "sha1": "20b337b447325d844668305d4fb9d99bf017739b",
-          "md5": "de05423cfcdaa72dbfe93c3de8665d9d"
+          "size": 1601,
+          "sha512": "e4560b130648fbf32e0bfc26bdf42d34c8947cd1b23a2790f01541ed8e2cf5e662f5a6fd700a45b4aad6b8e4eb49c939a99a07191d973b1b54688f2593f6d54c",
+          "sha256": "0435dd1c9b43e365892471cbd8a5cb83530f17c0275f2520da54d71b27b26406",
+          "sha1": "c8e061fb613dd9b33fc34a77c72d011339f80c9b",
+          "md5": "3c2ed26c35facc1ff7feeb1a1907a045"
         }
       ]
     },
@@ -272,11 +272,11 @@
         {
           "name": "flutter_release-1.0.1-javadoc.jar",
           "url": "flutter_release-1.0.1-javadoc.jar",
-          "size": 261619,
-          "sha512": "7ab0b3b2926e2fa13a31f88f990e64dfa320ebf1d1ecdbc9baf7bac4fbb48e4d00a4ae12704c4c56f14303e142d9dfa183700d594deb2e82cfacb91849651a84",
-          "sha256": "8e7c4e97400d52f2b8ef03c18fe28c54f359c9615979b9aa272615fb64ed26cd",
-          "sha1": "7e9738e646ade37ffcd7b833488f338ff4c80bb5",
-          "md5": "42f4f2c9a78454ff5c250538251f8996"
+          "size": 305492,
+          "sha512": "04d1e6f9b825ba063a52fbf315f182ff7785968f303c3fce452846c598f3c3d6a66301eaff234908334e14a02ee7aafbcb245bf8b8c2a566ede90f5dad721581",
+          "sha256": "bd2bffcd213f261994f3c1e6d129cd428ffc28e3594e00d549d1fd315f8f78a8",
+          "sha1": "fde9e9176e5d749f727a3cf16319ccabc3f33b6b",
+          "md5": "f8ebfc3c3568137d847bfd5d98e98cab"
         }
       ]
     }

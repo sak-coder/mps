@@ -18,6 +18,57 @@ android {
         targetSdk = 35
     }
 }
+publishing {
+    publications {
+        release(MavenPublication) {
+
+            groupId = "io.github.sak-coder" // Or your desired group ID
+            artifactId = "flutter_release"
+            version = "1.0.1"
+
+
+
+            // Optional: Customize POM metadata
+            pom {
+                name.set("Flutter Release Module")
+                description.set("Flutter module.")
+                url.set("https://github.com/sak-coder/mps") // Link to your project
+                licenses {
+                    license {
+                        name.set("The Apache License, Version 2.0")
+                        url.set("http://www.apache.org/licenses/LICENSE-2.0.txt")
+                    }
+                }
+                developers {
+                    developer {
+                        id.set("sak-coder")
+                        name.set("myphsar")
+                        email.set("contact@myphsar.com")
+                    }
+                }
+                scm {
+                    connection.set("scm:git:git://github.com/sak-coder/io.git")
+                    developerConnection.set("scm:git:ssh://github.com/sak-coder/io.git")
+                    url.set("https://github.com/sak-coder/io/tree/main")
+                }
+            }
+        }
+    }
+    repositories {
+        maven {
+            name = "GitHubPackages"
+            url = uri("https://github.com/sak-coder") // Ensure REPOSITORY_NAME is correct
+            credentials {
+                username = project.properties["sak-coder"] ?: ""
+                password = project.properties['github$pwd$93'] ?: ""
+            }
+//            credentials {
+//                username = System.getenv("sak-coder") ?: project.property("gpr.user") as String? // Or your GitHub username
+//                password = System.getenv('github$pwd$93') ?: project.property("gpr.key") as String?  // Or your PAT
+//            }
+        }
+    }
+}
 
 //publishing {
 //    publications {
